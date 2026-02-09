@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/Background-2-1.svg" type="image/x-icon">
+    <title>Ultraedit Text Editor - Secure, Configurable, Powerful</title>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <div class="nav-bg">
+        <header class="container nav">
+
+            <img src="assets/UE_Site-Logo.png" alt="UltraEdit Logo" class="logo">
+
+            <button class="menu-toggle" aria-label="Open Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Buy</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Learn</a></li>
+                    <li><a href="#">Company</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#" class="btn-primary">Download</a>
+
+                <div class="language">
+                    <img src="assets/icons8-globe-100.png" alt="Language">
+                    <a href="#">English</a>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section class="hero container">
+        <div class="hero-text">
+            <a href="#" class="top-badge">See what's new in UE 2025.1 →</a>
+
+            <h1>The modern text editor built for huge files.</h1>
+
+            <p>
+                UltraEdit is the high-performance text editor that IT and data professionals trust for massive file
+                editing, effortless data parsing, and complex text manipulation that free editors can’t handle.
+
+            <div class="hero-buttons">
+                <a href="#" class="btn-primary btn-large">
+                    Download UltraEdit
+                    <span>7-day free trial</span>
+                </a>
+
+                <a href="#" class="btn-secondary">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="hero-wrapper">
+
+            <div class="hero-image">
+                <img class="slide current" src="assets/huge_file-new-1.gif">
+                <img class="slide next" src="">
+
+                <div class="arrow left-arrow">&#10094;</div>
+                <div class="arrow right-arrow">&#10095;</div>
+            </div>
+
+            <div class="dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+            </div>
+
+            <br />
+            <div class="slide-text">
+                <p id="slideText">
+                    Even with gigabyte-sized files and millions of lines, you can search,
+                    select, and edit as smoothly as you would with smaller files.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- HERO EXTRA CONTENT (OUTSIDE HERO) -->
+    <section class="hero-extra">
+        <div class="reviews">
+            <img src="assets/3343x.svg" alt="Rating" class="ret-p" data-index="0">
+            <img src="assets/623x.svg" alt="Rating" class="ret-p" data-index="1">
+            <img src="assets/553x.svg" alt="Rating" class="ret-p" data-index="2">
+            <img src="assets/523x.svg" alt="Rating" class="ret-p" data-index="3">
+            <img src="assets/Frame-4113x.svg" alt="Rating" class="ret-p" data-index="4">
+            <img src="assets/star.png" alt="Star" height="18px" width="18px" class="star">
+            <span>4.7/5</span>
+        </div>
+
+        <div class="rating">
+            <span id="review-text" class="review-animate">
+                "UltraEdit replaced all my aging IDEs with one tool for all my programming languages."
+            </span>
+        </div>
+
+        <div class="Available-on">
+            <h3>Available on</h3>
+            <span><img src="assets/Frame-349.svg" alt="" /></span>
+        </div>
+    </section>
+
+    <!-- SECOND SECTION -->
+    <section class="features">
+        <div class="container-2">
+            <a href="#" class="top-badge-2">What can UltraEdit do for you?</a>
+            <h2>UltraEdit solves the problems other text editors can’t</h2>
+        </div>
+        <div class="cards">
+
+            <!-- CARD-1 -->
+            <div class="card-1">
+                <a href="https://www.ultraedit.com/support/tutorials-power-tips/ultraedit/large-file-handling"
+                    class="card-link" target="_blank">
+                    <div class="card-info">
+                        <img src="assets/Frame-352-1-card-1.svg" />
+                        <h5>Edit huge files…with zero lag</h5>
+                        <p>Have to open and edit large files? UltraEdit easily handles massive 10+ GB files that choke
+                            or
+                            cras5
+                            other editors and IDEs.</p>
+                        <span class="btn-cards">
+                            Discover more <span class="card-arrow">➜</span>
+                        </span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- CARD-2 -->
+            <div class="card-1">
+                <a href="https://www.ultraedit.com/support/tutorials-power-tips/ultraedit/navigate-your-workspace-instantly"
+                    class="card-link" target="_blank">
+                    <div class="card-info">
+                        <img src="assets/Frame-65162-1-card-2.svg" />
+                        <h5>Navigate your entire workspace instantly</h5>
+                        <p>Stop wasting time hunting for files or switching between tools. UltraEdit’s unified
+                            navigation setup lets you jump to any file on your local machine, search across your entire
+                            project history using the command palette, or access remote servers through integrated
+                            FTP/SFTP.</p>
+                        <span class="btn-cards">
+                            Discover more <span class="card-arrow">➜</span>
+                        </span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- CARD-3 -->
+            <div class="card-1">
+                <a href="https://www.ultraedit.com/language" class="card-link" target="_blank">
+                    <div class="card-info">
+                        <img src="assets/Frame-35245-1-card-3.svg" />
+                        <h5>Work seamlessly across any file or language</h5>
+                        <p>Handle everything from legacy and proprietary formats, to modern coding languages. With 500+
+                            supported file types and 487+ custom wordfiles, get precise syntax highlighting and support
+                            for TXT, CSV, JSON, XML, EDI, log, binary, and countless other formats.</p>
+                        <span class="btn-cards">
+                            Discover more <span class="card-arrow">➜</span>
+                        </span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- CARD-4 -->
+            <div class="card-1">
+                <a href="https://www.ultraedit.com/business/enterprise-security-compliance" class="card-link"
+                    target="_blank">
+                    <div class="card-info">
+                        <img src="assets/Frame-35264541-1-card-4.svg" />
+                        <h5>
+                            Handle sensitive data with confidence</h5>
+                        <p> When your work involves sensitive information, you need an editor built for security and
+                            compliance. Get peace of mind with a fortified editing environment and a professional
+                            support team available 24/7 to help meet your security and compliance requirements.</p>
+                        <span class="btn-cards">
+                            Discover more <span class="card-arrow">➜</span>
+                        </span>
+                    </div>
+                </a>
+            </div>
+
+
+            <!-- CARD-5 -->
+            <div class="card-1">
+                <a href="https://www.ultraedit.com/downloads/extras/macros-scripts" class="card-link" target="_blank">
+                    <div class="card-info">
+                        <img src="assets/Frame-352457-1-card-5.svg" />
+                        <h5>Automate repetitive tasks</h5>
+                        <p>Automate repetitive edits with UltraEdit’s macros and JavaScript-based scripting engine.
+                            Combined with regular expressions and column mode, these tools transform hours of manual
+                            work into single-click operations.</p>
+                        <span class="btn-cards">
+                            Discover more <span class="card-arrow">➜</span>
+                        </span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- CARD-6 -->
+            <div class="card-1">
+                <a href="https://www.ultraedit.com/products/ultraedit/features" class="card-link" target="_blank">
+                    <div class="card-info">
+                        <img src="assets/Frame-35264-1-card-6.svg" />
+                        <h5>Convert between data formats</h5>
+                        <p>UltraEdit supports numerous file formats, letting you view, edit, and convert data between
+                            CSV, XML, JSON, and various encodings (Unix/DOS/UTF-8/hex) with ease.</p>
+                        <span class="btn-cards">
+                            Discover more <span class="card-arrow">➜</span>
+                        </span>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- THIRD SECTION -->
+    <section class="work-with-us">
+        <div class="container-3">
+            <a href="/#" class="top-badge-3">The world’s most loved editor</a>
+            <h2>From solo devs to global enterprises — trusted for work that can’t fail</h2>
+            <div class="round-icons">
+                <div class="icons-track">
+
+                    <!-- ORIGINAL -->
+                    <img src="assets/BAE_Systems_Grey-1.svg" class="logo l-custom-1">
+                    <img src="assets/blue-cross-blue-shield-Grey-1.svg" class="logo l-custom-2">
+                    <img src="assets/BNP-Paribas-Grey-1.svg" class="logo l-custom-3">
+                    <img src="assets/Capital_One_Grey-1.svg" class="logo l-custom-4">
+                    <img src="assets/carfax-1.svg" class="logo l-custom-5">
+                    <img src="assets/CTBC-Tawain-Life-Ins._Grey-1.svg" class="logo l-custom-6">
+                    <img src="assets/first-national-bank_GREY-1.svg" class="logo l-custom-7">
+                    <img src="assets/IKB-Deutsche-Industriebank_Grey-1.svg" class="logo l-custom-8">
+                    <img src="assets/Kaiser-Permanente_logo_Grey-1.svg" class="logo l-custom-9">
+                    <img src="assets/L3Harris_Technologies_logo_Grey-1.svg" class="logo l-custom-10">
+                    <img src="assets/MassMutual_logo_Grey-1.svg" class="logo l-custom-11">
+
+                    <!-- DUPLICATE -->
+                    <img src="assets/BAE_Systems_Grey-1.svg" class="logo l-custom-1">
+                    <img src="assets/blue-cross-blue-shield-Grey-1.svg" class="logo l-custom-2">
+                    <img src="assets/BNP-Paribas-Grey-1.svg" class="logo l-custom-3">
+                    <img src="assets/Capital_One_Grey-1.svg" class="logo l-custom-4">
+                    <img src="assets/carfax-1.svg" class="logo l-custom-5">
+                    <img src="assets/CTBC-Tawain-Life-Ins._Grey-1.svg" class="logo l-custom-6">
+                    <img src="assets/first-national-bank_GREY-1.svg" class="logo l-custom-7">
+                    <img src="assets/IKB-Deutsche-Industriebank_Grey-1.svg" class="logo l-custom-8">
+                    <img src="assets/Kaiser-Permanente_logo_Grey-1.svg" class="logo l-custom-9">
+                    <img src="assets/L3Harris_Technologies_logo_Grey-1.svg" class="logo l-custom-10">
+                    <img src="assets/MassMutual_logo_Grey-1.svg" class="logo l-custom-11">
+
+                </div>
+            </div>
+
+            <!-- PAGE-1 -->
+            <div class="Business-page-1">
+                <div class="business-layout">
+                    <!-- LEFT TEXT SIDE -->
+                    <div class="business-content">
+                        <span class="top-badge-4">
+                            <img src="assets/Frame-40311.svg" alt="Businesses icon">
+                            <span>For Businesses and Enterprises</span>
+                        </span>
+
+                        <h2>Specialized deployment kit for multi-million dollar company</h2>
+
+                        <p>
+                            <b>Problem:</b> A longstanding UltraEdit enterprise client with over 57,000 faced a
+                            regulatory change requiring language availability in their software, which made
+                            their deployment processes cumbersome.
+                        </p>
+
+                        <p>
+                            <b>Solution:</b> UltraEdit’s engineers collaborated with the client’s team to
+                            implement a customized, flexible deployment kit that ultimately reduced the
+                            company’s deployment work hours by 60%
+                        </p>
+
+                        <div class="person-review">
+                            <h4>
+                                “UltraEdit's made us a customized multilingual installer. It cut about 60% of
+                                our laborious deployment process, saving dozens of work hours.”
+                            </h4>
+                            <div class="person-info">
+                                <img src="assets/Image-1.svg" />
+                                <div class="person-text">
+                                    <span class="person-name-1">Engineering Team</span>
+                                    <span class="person-name-2">· Financial Services Dept</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="btn-business">
+                            Discover more <span class="arrow-business">-></span>
+                        </a>
+                    </div>
+
+                    <!-- RIGHT IMAGE SIDE -->
+                    <div class="img-box">
+                        <img class="current-img" src="assets/Deployment-Kit-Use-Case-Section.png" />
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- PAGE-2 -->
+            <div class="Business-page-1">
+                <div class="business-layout reverse-layout">
+
+                    <!-- RIGHT TEXT SIDE -->
+                    <div class="business-content reverse-content">
+                        <span class="top-badge-4">
+                            <img src="assets/Frame-40311.svg" alt="Businesses icon">
+                            <span>For those working on legacy code & formats</span>
+                        </span>
+
+                        <h2>Bringing readability and efficiency to legacy EDI workflows</h2>
+
+                        <p>
+                            <b>Problem:</b> A senior software developer at a health insurance company struggled with
+                            managing and editing thousands of EDI (Electronic Data Interchange) files. They were written
+                            in an antiquated, data format with poor readability.
+                        </p>
+
+                        <p>
+                            <b>Solution:</b> A custom wordfile, available for UltraEdit, enabled syntax highlighting and
+                            personalized editing capabilities for the legacy language and file format, dramatically
+                            improving readability and efficiency.
+                        </p>
+
+                        <div class="person-review">
+                            <h4>
+                                “UltraEdit eliminated my 'bleeding eye syndrome' from working with thousands of lines of
+                                unformatted database files.”
+                            </h4>
+                            <div class="person-info">
+                                <img src="assets/Image-2.svg" />
+                                <div class="person-text">
+                                    <span class="person-name-1">Marvin Cross
+                                    </span>
+                                    <span class="person-name-2">
+                                        · developer for Sentara Health</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="btn-business">
+                            Discover more <span class="arrow-business">-></span>
+                        </a>
+                    </div>
+
+                    <!-- RIGHT IMAGE SIDE -->
+                    <div class="img-box reverse-box">
+                        <img class="current-img reverse-img" src="assets/EDI-Files-Use-Case-Section.png" />
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- PAGE-3 -->
+            <div class="Business-page-1">
+                <div class="business-layout">
+
+                    <!-- LEFT TEXT SIDE -->
+                    <div class="business-content">
+                        <span class="top-badge-4">
+                            <img src="assets/Frame-40365.svg" alt="Businesses icon">
+                            <span>For IT and data professionals</span>
+                        </span>
+
+                        <h2>An editor that eats through large files</h2>
+
+                        <p>
+                            <b>Problem:</b> Developers and IT professionals often struggle with editing massive log
+                            files, data sets, or source files. Most editors and IDEs choke on large files, requiring
+                            plugins, special tweaks, or giving up entirely.
+                        </p>
+
+                        <p>
+                            <b>Solution:</b> UltraEdit is built to open, search, and edit files of virtually any size
+                            straight out of the box. No plugins, no special configuration—just fast, reliable
+                            performance without limits.
+                        </p>
+
+                        <div class="person-review">
+                            <h4>
+                                “Large files can be edited much faster in UltraEdit compared to other editors - a
+                                must-have feature for quickly changes in large EDI files!”
+                            </h4>
+                            <div class="person-info">
+                                <img src="assets/Image-3.svg" />
+                                <div class="person-text">
+                                    <span class="person-name-1">Data Warehouse Analyst
+                                    </span>
+                                    <span class="person-name-2">· Enterprise Company</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="btn-business">
+                            Discover more <span class="arrow-business">-></span>
+                        </a>
+                    </div>
+
+                    <!-- RIGHT IMAGE SIDE -->
+                    <div class="img-box">
+                        <img class="current-img" src="assets/Large-Files-Use-Case-section.png" />
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- EDITOR-FEATURES -->
+    <section class="editor-features-page">
+        <div class="container-4">
+            <a href="/#" class="top-badge-3-3">Hundreds of features to make your life easier</a>
+            <h2>Editor Features</h2>
+        </div>
+
+        <div class="editor-cards">
+            <div class="editor-cards-1">
+                <a href="https://www.ultraedit.com/downloads/extras/themes/">
+                    <img src="assets/Custom-themes-and-layouts.svg" alt="">
+                    <h3>Custom themes and layouts</h3>
+                </a>
+            </div>
+
+            <div class="editor-cards-1">
+                <a href="https://www.ultraedit.com/downloads/extras/themes/">
+                    <img src="assets/Find-and-replace.svg" alt="">
+                    <h3>Find and replace</h3>
+                </a>
+            </div>
+
+            <div class="editor-cards-1">
+                <a href="https://www.ultraedit.com/downloads/extras/themes/">
+                    <img src="assets/Multi-caret.svg" alt="">
+                    <h3>Multi-caret/multi-select</h3>
+                </a>
+            </div>
+
+            <div class="editor-cards-1">
+                <a href="https://www.ultraedit.com/downloads/extras/themes/">
+                    <img src="assets/Column.svg" alt="">
+                    <h3>Column / block mode</h3>
+                </a>
+            </div>
+
+            <div class="editor-cards-1 editor-cards-1-5">
+                <a href="https://www.ultraedit.com/downloads/extras/themes/">
+                    <img src="assets/XML-handling.svg" alt="">
+                    <h3>HTML / Markdown live preview</h3>
+                </a>
+            </div>
+
+            <div class="editor-cards-1">
+                <a href="https://www.ultraedit.com/downloads/extras/themes/">
+                    <img src="assets/Text-and-file-search.svg" alt="">
+                    <h3>Text and file search</h3>
+                </a>
+            </div>
+
+            <div class="editor-cards-1">
+                <a href="https://www.ultraedit.com/downloads/extras/themes/">
+                    <img src="assets/Integrated-FTP.svg" alt="">
+                    <h3>Integrated FTP, SSH & Telnet</h3>
+                </a>
+            </div>
+
+            <div class="editor-cards-1">
+                <a href="https://www.ultraedit.com/downloads/extras/themes/">
+                    <img src="assets/Find-and-replace.svg" alt="">
+                    <h3>File and folder compare</h3>
+                </a>
+            </div>
+
+            <div class="editor-cards-1">
+                <a href="https://www.ultraedit.com/downloads/extras/themes/">
+                    <img src="assets/XML-handling (1).svg" alt="">
+                    <h3>XML handling</h3>
+                </a>
+            </div>
+
+            <a href="https://www.ultraedit.com/downloads/ultraedit-download-thank-you"
+                class="btn-primary btn-editor-features">Download UltraEdit</a>
+
+        </div>
+    </section>
+
+    <!-- FOOTER HERE -->
+    <section class="footer-section">
+        <footer class="footer">
+
+            <div class="footer-inner">
+
+                <!-- LEFT SIDE -->
+                <div class="footer-left">
+                    <img src="assets/Background-2-1.svg" alt="" />
+
+                    <h3>UltraEdit</h3>
+                    <p class="footer-p-1">
+                        UltraEdit is the powerful text editor built for developers, data wranglers, and IT pros handling
+                        large files and complex tasks.
+                    </p>
+
+                    <h4>Newsletter Signup</h4>
+                    <p class="footer-p-2">
+                        Stay updated on new features, tutorials, and exclusive offers.
+                    </p>
+
+                    <div class="email-box">
+                        <input type="email" placeholder="email@email.com" id="email" />
+                        <button class="submit-btn">Subscribe</button>
+                    </div>
+                </div>
+
+                <!-- RIGHT SIDE -->
+                <div class="footer-right">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Company</th>
+                                <th>Products</th>
+                                <th>Support</th>
+                                <th>Legal</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="https://www.ultraedit.com/company/about-us/">About Us</a></td>
+                                <td><a href="https://www.ultraedit.com/products/ultraedit/">UltraEdit (Windows / Mac /
+                                        Linux)</a></td>
+                                <td><a href="https://www.ultraedit.com/products/ultraedit/licenses-and-faqs/">Help
+                                        Center</a></td>
+                                <td><a href="https://www.ideracorp.com/en/legal/privacypolicy">Privacy Policy</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.ultraedit.com/company/contact-us/">Contact Us</a></td>
+                                <td><a href="https://www.ultraedit.com/products/ultracompare/">UltraCompare</a></td>
+                                <td><a href="https://www.ultraedit.com/support/activation-faq/">Licensing &
+                                        Activation</a></td>
+                                <td><a href="https://www.ultraedit.com/products/ultraedit/licenses-and-faqs/#refunds">Refund
+                                        Policy</a></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><a href="https://www.ultraedit.com/products/ultraftp/">UltraFTP</a></td>
+                                <td><a href="https://www.ultraedit.com/support/">File a Support Ticket</a></td>
+                                <td><a href="https://www.ideracorp.com/legal/UltraEdit">License Agreement</a></td>
+                            </tr>
+
+                            <tr>
+                                <td></td>
+                                <td><a href="https://www.ultraedit.com/products/uestudio/">UEStudio</a></td>
+                                <td><a
+                                        href="https://wiki.ultraedit.com/Main_Page?_gl=1*bzwwxh*_gcl_au*NTc0NzYzNDEyLjE3NjgyMDQzODM.*_ga*MzA1NDUwMjA3LjE3NjgyMDQzODM.*_ga_QNXHVTPWNS*czE3NzAxMzIwMDIkbzI5JGcxJHQxNzcwMTMyNjEzJGozMSRsMCRoMTI1NjI1NTgwNQ..">Documentation</a>
+                                </td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td></td>
+                                <td><a href="https://www.ultraedit.com/downloads/">All Products</a></td>
+                                <td><a
+                                        href="https://forums.ultraedit.com/?_gl=1*1uzbwzd*_gcl_au*NTc0NzYzNDEyLjE3NjgyMDQzODM.*_ga*MzA1NDUwMjA3LjE3NjgyMDQzODM.*_ga_QNXHVTPWNS*czE3NzAxMzIwMDIkbzI5JGcxJHQxNzcwMTMyNjczJGozNSRsMCRoMTI1NjI1NTgwNQ..">Community
+                                        Forums</a></td>
+                                <td></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <p class="copy-right">© Copyright 2025, All Rights Reserved</p>
+        </footer>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
