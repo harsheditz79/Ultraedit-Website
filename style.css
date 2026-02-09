@@ -1325,6 +1325,27 @@ body {
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .hero-extra {
+        margin-top: -120px;
+        /* -70 se -120 kiya */
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+    .hero-extra {
+        margin-top: -160px;
+        /* -120 se -160 kiya */
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1023px) {
+    .hero-extra {
+        margin-top: -80px;
+        /* -40 se -80 kiya */
+    }
+}
+
 /* THIRD SECTION */
 .work-with-us {
     background-color: #ffffff;
