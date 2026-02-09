@@ -1281,8 +1281,8 @@ body {
     }
 
     .icons-track {
-        animation-duration: 8s !important;
-    }
+    animation-duration: 3s !important;
+}
 
     .round-icons {
         margin-top: 20px;
